@@ -1,0 +1,49 @@
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 500px;
+    height: 500px;
+    background: papayawhip;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.top_image{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.profile_container{
+    top:-80px;
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    overflow: hidden;
+    align-items: center;
+    position:relative;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    justify-content: center;
+    object-fit: none;
+}
+
+.profile_picture{
+    width: 160px;
+    position: absolute;
+    top:-50px;
+}
+
+.card h1{
+    text-align: center;
+    color: maroon;
+}
+
+.card h3{
+    text-align: center;
+    color: maroon;
+}
