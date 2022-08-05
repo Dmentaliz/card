@@ -22,6 +22,7 @@ section{
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
 }
 
 .top_image{
