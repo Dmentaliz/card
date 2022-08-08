@@ -80,3 +80,12 @@ section{
     font-size: 1.125rem;
     font-weight: 500;
 }
+
+@media (max-width: 500px) {
+    .card{
+        width: 19rem;
+    }
+    .top_image img{
+        margin-left:-50%;
+    }
+}
