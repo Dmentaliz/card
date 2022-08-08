@@ -13,16 +13,16 @@ section{
 }
 
 .card{
-    width: 500px;
-    height: 550px;
+    width: 31.25rem;
+    height: 34.375rem;
     background: papayawhip;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     overflow: hidden;
     display: flex;
     align-items: center;
     /* justify-content: center; */
     flex-direction: column;
-    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0.1875rem 0.25rem 0.3125rem 0rem rgba(0,0,0,0.75);
 }
 
 .top_image{
@@ -32,31 +32,31 @@ section{
 }
 
 .profile_container{
-    top:-80px;
-    width: 160px;
-    height: 160px;
+    top:-5rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
     align-items: center;
     position:relative;
-    border: 5px solid papayawhip;
+    border: 0.3125rem solid papayawhip;
     justify-content: center;
-    margin-bottom: -80px;
+    margin-bottom: -5rem;
 }
 
 .profile_picture{
-    width: 160px;
+    width: 10rem;
     position: absolute;
-    top:-12px;
+    top:-0.75rem;
     object-fit: cover;
-    height: 160px;
+    height: 10rem;
 }
 
 .card h1{
     text-align: center;
     font-weight: 800;
     color: maroon;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .card h3{
@@ -65,7 +65,7 @@ section{
 }
 
 .profile_info{
-    margin-top: 40px;
+    margin-top: 2.5rem;
     width: 100%;
     display: flex;
 }
@@ -77,6 +77,6 @@ section{
 }
 .profile_info div p {
     color: maroon;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
